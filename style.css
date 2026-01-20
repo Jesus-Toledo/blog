@@ -1,0 +1,57 @@
+/* HERO SECTION */
+.hero {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px; /* mobile first */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 3rem 1rem;
+  color: white;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+  .hero {
+    min-height: 350px;
+  }
+}
+
+/* ASIDE SECTION */
+
+.sidebar-card {
+  background: linear-gradient(180deg, #1c1e22, #121317);
+  border: none;
+  border-radius: 12px;
+}
+
+.sidebar-avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.sidebar-input {
+  background-color: #1f2126;
+  border: 1px solid #2c2f36;
+  color: #fff;
+}
+
+.sidebar-input::placeholder {
+  color: #9ca3af;
+}
+
+.sidebar-input:focus {
+  background-color: #1f2126;
+  color: #fff;
+  border-color: #dc3545;
+  box-shadow: none;
+}

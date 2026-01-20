@@ -1,4 +1,12 @@
 /* HERO SECTION */
+body {
+  background-color: #fafafa;
+}
+
+.color-tittle {color: #2d3748;}
+.color-text{color: #4a5568;}
+
+
 .hero {
   background-image: url(images/hero.jpg);
   background-size: cover;
